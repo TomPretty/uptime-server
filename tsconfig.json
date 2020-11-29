@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "strict": true,
+    "sourceMap": true,
+    "module": "CommonJS",
+    "noImplicitReturns": true,
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "typeRoots": ["./node_modules/@types"],
+    "rootDirs": ["src"],
+    "baseUrl": "src"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
